@@ -1,0 +1,11 @@
+﻿  Uic'ing DYELogAnalyzeToolDlg.ui...
+  DYELogAnalyzeToolDlg.cpp
+m:\dayang\samples\dyeloganalyzetool\DYELogAnalyzeToolDlg.h(4): warning C4068: 未知的杂注
+m:\dayang\samples\dyeloganalyzetool\DYELogAnalyzeToolDlg.h(5): warning C4695: #pragma execution_character_set: 'GBK' 不是受支持的参数: 当前仅支持“UTF-8”
+m:\dayang\samples\dyeloganalyzetool\DYELogAnalyzeToolDlg.h(6): warning C4695: #pragma execution_character_set: 'ANSI' 不是受支持的参数: 当前仅支持“UTF-8”
+DYELogAnalyzeToolDlg.cpp(187): warning C4189: “nRowIndex”: 局部变量已初始化但不引用
+DYELogAnalyzeToolDlg.cpp(188): warning C4189: “nColumnIndex”: 局部变量已初始化但不引用
+DYELogAnalyzeToolDlg.cpp(237): warning C4189: “nColumnIndex”: 局部变量已初始化但不引用
+m:\dayang\samples\dyeloganalyzetool\dyeloganalyzetooldlg.cpp(78): warning C4715: “DYELogAnalyzeToolDlg::OnBtnClkButtonOpenFileDlg”: 不是所有的控件路径都返回值
+  DYELogAnalyzeTool.vcxproj -> M:\Dayang\Samples\DYELogAnalyzeTool\debug\DYELogAnalyzeTool.exe
+  DYELogAnalyzeTool.vcxproj -> debug\DYELogAnalyzeTool.pdb (Full PDB)

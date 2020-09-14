@@ -1,0 +1,140 @@
+00000001	0.00004570	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000002	5.01576090	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000004	10.03129005	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000006	15.04688835	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000008	20.04681396	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000010	25.06246567	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000012	30.07822037	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000014	35.09368134	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000016	40.09369278	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000018	45.09372330	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000020	45.32808685	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:[StackLevel:1]进入！	
+00000021	45.32815170	[5364] <状态>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:收到来自CDYExplorerDataInterfaceImpl::SaveRes函数的消息<DYEMessageBody><dwMsgSynType>2120</dwMsgSynType><dwMsgOperateType>131072</dwMsgOperateType><DYESynData><enumResType>32</enumResType><guidRes>F8D458B8-C47B-4728-BE05-913022A17E14</guidRes></DYESynData></DYEMessageBody>！ 	
+00000022	45.32819748	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:[StackLevel:2]进入！	
+00000023	45.32822800	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:[StackLevel:3]进入！	
+00000024	45.32825470	[5364] <状态>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:要处理的消息字符串为：<DYEMessageBody><dwMsgSynType>2120</dwMsgSynType><dwMsgOperateType>131072</dwMsgOperateType><DYESynData><enumResType>32</enumResType><guidRes>F8D458B8-C47B-4728-BE05-913022A17E14</guidRes></DYESynData></DYEMessageBody>	
+00000025	45.32886887	[5364] <控制>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEXMLHandler::CDYEXMLHandler] --- MSG:指定XML文件''不存在，走构建模式！	
+00000026	45.32895660	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlNode] --- MSG:[StackLevel:4]进入！	
+00000027	45.32903671	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlNode] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000028	45.32906342	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:[StackLevel:3]退出！...用时 0 ms...	
+00000029	45.32908630	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:[StackLevel:3]进入！	
+00000030	45.32910538	[5364] <状态>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:成功获取到锁！	
+00000031	45.32912445	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::IsExistResSyncTask] --- MSG:[StackLevel:4]进入！	
+00000032	45.32914734	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:[StackLevel:5]进入！	
+00000033	45.32918167	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:数据库查询语句：SELECT guidTask FROM ResSyncTask WHERE guidRes = 'F8D458B8-C47B-4728-BE05-913022A17E14' AND dwOperateType = 2 AND dwTaskType = 1	
+00000034	45.32923508	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]进入！	
+00000035	45.32928467	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000036	45.33077621	[5364] <警告>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:要查询的资源同步任务不存在！	
+00000037	45.33081436	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:[StackLevel:5]退出！...用时 0 ms...	
+00000038	45.33083344	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::IsExistResSyncTask] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000039	45.33089447	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::SaveResSyncTask] --- MSG:[StackLevel:4]进入！	
+00000040	45.33091354	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:[StackLevel:5]进入！	
+00000041	45.33094406	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:数据库查询语句：SELECT * FROM ResSyncTask WHERE guidTask = '9CAC86DF-179F-41C4-9168-E2D4D2429837'	
+00000042	45.33099747	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]进入！	
+00000043	45.33104706	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000044	45.33547211	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:数据库没有，添加记录！	
+00000045	45.33701706	[5364] [ERROR] [2020-08-25 11:55:55,410] [Thread:0x000022a4 DYSyncTaskMakeServiceU] Error Code:[-2080374784],Error Decription:[Incorrect datetime value: '1970-01-01 07:59:59.000' for column 'odtReserve1' at row 1] 	
+00000046	45.33710861	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::DYEDumpException] --- MSG:[StackLevel:6]进入！	
+00000047	45.33712387	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::IsAppBackGround] --- MSG:[StackLevel:7]进入！	
+00000048	45.33715820	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::GetCurModuleName] --- MSG:[StackLevel:8]进入！	
+00000049	45.33717728	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::GetCurModuleName] --- MSG:[StackLevel:8]退出！...用时 0 ms...	
+00000050	45.33730698	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::IsAppBackGround] --- MSG:[StackLevel:7]退出！...用时 0 ms...	
+00000051	45.33732605	[5364] 函数名：CDYEResSyncTaskDBAccessor::SaveResSyncTask, SQL语句：SELECT * FROM ResSyncTask WHERE guidTask = '9CAC86DF-179F-41C4-9168-E2D4D2429837', 异常描述：Incorrect datetime value: '1970-01-01 07:59:59.000' for column 'odtReserve1' at row 1 	
+00000052	45.33736801	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::DYEDumpException] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000053	45.33739853	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:[StackLevel:5]退出！...用时 0 ms...	
+00000054	45.33741760	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::SaveResSyncTask] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000055	45.33744049	[5364] <错误>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:添加资源同步任务失败！	
+00000056	45.33745956	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:[StackLevel:3]退出！...用时 0 ms...	
+00000057	45.33748627	[5364] <警告>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:添加从主到备的同步任务失败！资源ID：F8D458B8-C47B-4728-BE05-913022A17E14；资源类型：32	
+00000058	45.33750534	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:[StackLevel:2]退出！...用时 0 ms...	
+00000059	45.33752823	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:[StackLevel:1]退出！...用时 0 ms...	
+00000060	50.10927200	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000063	55.12501907	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000064	60.14065170	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000066	65.14060974	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000068	70.15628052	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000071	75.17189026	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000072	76.07817078	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:[StackLevel:1]进入！	
+00000073	76.07819366	[5364] <状态>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:收到来自CDYExplorerDataInterfaceImpl::InsertRes函数的消息<DYEMessageBody><dwMsgSynType>2120</dwMsgSynType><dwMsgOperateType>65536</dwMsgOperateType><DYESynData><enumResType>1</enumResType><guidRes>D735E06C-5A89-49B5-BC2F-FBA88D974D7C</guidRes></DYESynData></DYEMessageBody>！ 	
+00000074	76.07823181	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:[StackLevel:2]进入！	
+00000075	76.07826233	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:[StackLevel:3]进入！	
+00000076	76.07829285	[5364] <状态>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:要处理的消息字符串为：<DYEMessageBody><dwMsgSynType>2120</dwMsgSynType><dwMsgOperateType>65536</dwMsgOperateType><DYESynData><enumResType>1</enumResType><guidRes>D735E06C-5A89-49B5-BC2F-FBA88D974D7C</guidRes></DYESynData></DYEMessageBody>	
+00000077	76.07841492	[5364] <控制>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEXMLHandler::CDYEXMLHandler] --- MSG:指定XML文件''不存在，走构建模式！	
+00000078	76.07849884	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlNode] --- MSG:[StackLevel:4]进入！	
+00000079	76.07856750	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlNode] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000080	76.07859802	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:[StackLevel:3]退出！...用时 0 ms...	
+00000081	76.07862091	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:[StackLevel:3]进入！	
+00000082	76.07864380	[5364] <状态>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:成功获取到锁！	
+00000083	76.07865906	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::IsExistResSyncTask] --- MSG:[StackLevel:4]进入！	
+00000084	76.07868958	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:[StackLevel:5]进入！	
+00000085	76.07872772	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:数据库查询语句：SELECT guidTask FROM ResSyncTask WHERE guidRes = 'D735E06C-5A89-49B5-BC2F-FBA88D974D7C' AND dwOperateType = 1 AND dwTaskType = 1	
+00000086	76.07878113	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]进入！	
+00000087	76.07883453	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000088	76.07992554	[5364] <警告>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:要查询的资源同步任务不存在！	
+00000089	76.07994843	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:[StackLevel:5]退出！...用时 0 ms...	
+00000090	76.07998657	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::IsExistResSyncTask] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000091	76.08003235	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::SaveResSyncTask] --- MSG:[StackLevel:4]进入！	
+00000092	76.08004761	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:[StackLevel:5]进入！	
+00000093	76.08009338	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:数据库查询语句：SELECT * FROM ResSyncTask WHERE guidTask = '50E97A31-D1D6-4C53-8790-FC57F3A4CB18'	
+00000094	76.08014679	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]进入！	
+00000095	76.08018494	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000096	76.08080292	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:数据库没有，添加记录！	
+00000097	76.08215332	[5364] [ERROR] [2020-08-25 11:56:26,160] [Thread:0x000022a4 DYSyncTaskMakeServiceU] Error Code:[-2080374784],Error Decription:[Incorrect datetime value: '1970-01-01 07:59:59.000' for column 'odtReserve1' at row 1] 	
+00000098	76.08221436	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::DYEDumpException] --- MSG:[StackLevel:6]进入！	
+00000099	76.08223724	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::IsAppBackGround] --- MSG:[StackLevel:7]进入！	
+00000100	76.08226013	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::GetCurModuleName] --- MSG:[StackLevel:8]进入！	
+00000101	76.08228302	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::GetCurModuleName] --- MSG:[StackLevel:8]退出！...用时 0 ms...	
+00000102	76.08245850	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::IsAppBackGround] --- MSG:[StackLevel:7]退出！...用时 0 ms...	
+00000103	76.08248901	[5364] 函数名：CDYEResSyncTaskDBAccessor::SaveResSyncTask, SQL语句：SELECT * FROM ResSyncTask WHERE guidTask = '50E97A31-D1D6-4C53-8790-FC57F3A4CB18', 异常描述：Incorrect datetime value: '1970-01-01 07:59:59.000' for column 'odtReserve1' at row 1 	
+00000104	76.08255005	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::DYEDumpException] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000105	76.08256531	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:[StackLevel:5]退出！...用时 0 ms...	
+00000106	76.08258820	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::SaveResSyncTask] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000107	76.08261108	[5364] <错误>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:添加资源同步任务失败！	
+00000108	76.08263397	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:[StackLevel:3]退出！...用时 0 ms...	
+00000109	76.08266449	[5364] <警告>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:添加从主到备的同步任务失败！资源ID：D735E06C-5A89-49B5-BC2F-FBA88D974D7C；资源类型：1	
+00000110	76.08267975	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:[StackLevel:2]退出！...用时 0 ms...	
+00000111	76.08270264	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:[StackLevel:1]退出！...用时 0 ms...	
+00000113	80.18755341	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000114	84.28129578	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:[StackLevel:1]进入！	
+00000115	84.28134155	[5364] <状态>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:收到来自CDYExplorerDataInterfaceImpl::SaveRes函数的消息<DYEMessageBody><dwMsgSynType>2120</dwMsgSynType><dwMsgOperateType>131072</dwMsgOperateType><DYESynData><enumResType>1</enumResType><guidRes>D735E06C-5A89-49B5-BC2F-FBA88D974D7C</guidRes></DYESynData></DYEMessageBody>！ 	
+00000116	84.28137970	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:[StackLevel:2]进入！	
+00000117	84.28141022	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:[StackLevel:3]进入！	
+00000118	84.28143311	[5364] <状态>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:要处理的消息字符串为：<DYEMessageBody><dwMsgSynType>2120</dwMsgSynType><dwMsgOperateType>131072</dwMsgOperateType><DYESynData><enumResType>1</enumResType><guidRes>D735E06C-5A89-49B5-BC2F-FBA88D974D7C</guidRes></DYESynData></DYEMessageBody>	
+00000119	84.28153229	[5364] <控制>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEXMLHandler::CDYEXMLHandler] --- MSG:指定XML文件''不存在，走构建模式！	
+00000120	84.28160858	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlNode] --- MSG:[StackLevel:4]进入！	
+00000121	84.28165436	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlNode] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000122	84.28169250	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYExploreData  @Jul  3 2020][GetMessageBodyFromXmlStr] --- MSG:[StackLevel:3]退出！...用时 0 ms...	
+00000123	84.28171539	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:[StackLevel:3]进入！	
+00000124	84.28173065	[5364] <状态>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:成功获取到锁！	
+00000125	84.28175354	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::IsExistResSyncTask] --- MSG:[StackLevel:4]进入！	
+00000126	84.28177643	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:[StackLevel:5]进入！	
+00000127	84.28180695	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:数据库查询语句：SELECT guidTask FROM ResSyncTask WHERE guidRes = 'D735E06C-5A89-49B5-BC2F-FBA88D974D7C' AND dwOperateType = 2 AND dwTaskType = 1	
+00000128	84.28186035	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]进入！	
+00000129	84.28191376	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000130	84.28288269	[5364] <警告>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:要查询的资源同步任务不存在！	
+00000131	84.28292847	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::IsExistResSyncTask] --- MSG:[StackLevel:5]退出！...用时 0 ms...	
+00000132	84.28294373	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::IsExistResSyncTask] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000133	84.28298950	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::SaveResSyncTask] --- MSG:[StackLevel:4]进入！	
+00000134	84.28300476	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:[StackLevel:5]进入！	
+00000135	84.28303528	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:数据库查询语句：SELECT * FROM ResSyncTask WHERE guidTask = '86544AE4-9235-4300-9E04-9024C08243BA'	
+00000136	84.28306580	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]进入！	
+00000137	84.28310394	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][CDYEDBAccessor::TranslateSQL] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000138	84.28362274	[5364] <状态>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:数据库没有，添加记录！	
+00000139	84.28511047	[5364] [ERROR] [2020-08-25 11:56:34,363] [Thread:0x000022a4 DYSyncTaskMakeServiceU] Error Code:[-2080374784],Error Decription:[Incorrect datetime value: '1970-01-01 07:59:59.000' for column 'odtReserve1' at row 1] 	
+00000140	84.28517151	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::DYEDumpException] --- MSG:[StackLevel:6]进入！	
+00000141	84.28519440	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::IsAppBackGround] --- MSG:[StackLevel:7]进入！	
+00000142	84.28521729	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::GetCurModuleName] --- MSG:[StackLevel:8]进入！	
+00000143	84.28523254	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::GetCurModuleName] --- MSG:[StackLevel:8]退出！...用时 0 ms...	
+00000144	84.28537750	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::IsAppBackGround] --- MSG:[StackLevel:7]退出！...用时 0 ms...	
+00000145	84.28538513	[5364] 函数名：CDYEResSyncTaskDBAccessor::SaveResSyncTask, SQL语句：SELECT * FROM ResSyncTask WHERE guidTask = '86544AE4-9235-4300-9E04-9024C08243BA', 异常描述：Incorrect datetime value: '1970-01-01 07:59:59.000' for column 'odtReserve1' at row 1 	
+00000146	84.28543091	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYECommonFunc  @Jun 18 2020][ns_DYECommonUtils::DYEDumpException] --- MSG:[StackLevel:6]退出！...用时 0 ms...	
+00000147	84.28545380	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskDBAccessor::SaveResSyncTask] --- MSG:[StackLevel:5]退出！...用时 0 ms...	
+00000148	84.28546906	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYResSyncTaskData  @May 26 2020][CDYEResSyncTaskData::SaveResSyncTask] --- MSG:[StackLevel:4]退出！...用时 0 ms...	
+00000149	84.28549194	[5364] <错误>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:添加资源同步任务失败！	
+00000150	84.28550720	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::AddMainToDualSyncTask] --- MSG:[StackLevel:3]退出！...用时 0 ms...	
+00000151	84.28553772	[5364] <警告>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:添加从主到备的同步任务失败！资源ID：D735E06C-5A89-49B5-BC2F-FBA88D974D7C；资源类型：1	
+00000152	84.28554535	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::DYESyncDataDistribute] --- MSG:[StackLevel:2]退出！...用时 0 ms...	
+00000153	84.28556824	[5364] <堆栈>[DYE_DEBUG][Thread:8868][DYSyncTaskMakeService  @Jul  6 2020][CDYExplorerProxy::ExplorerDataSyncRecvProc] --- MSG:[StackLevel:1]退出！...用时 0 ms...	
+00000155	85.20315552	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000156	90.20310211	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
+00000158	95.20303345	[5364] <警告>[DYE_DEBUG][Thread:5636][DYSyncTaskMakeService  @Jul  6 2020][GsoapThread] --- MSG:GsoapThread——等待客户端连接超时！	
